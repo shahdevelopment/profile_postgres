@@ -8,3 +8,6 @@ ENV POSTGRES_USER="$postgresUser"
 
 ARG postgresDb
 ENV POSTGRES_DB="$postgresDb"
+
+ARG postgresHost
+ENV POSTGRES_HOST="$postgresHost"

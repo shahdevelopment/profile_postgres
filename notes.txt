@@ -1,8 +1,0 @@
-# docker run --name some-postgres -e POSTGRES_PASSWORD_FILE=/run/secrets/postgres-passwd -d postgres
-# Secrets are stored in /run/secrets/postgres-passwd
-
-echo "askjfkabfhewbfhwbfjcblkjsahweufeifbe" | docker secret create postgresPass -
-
-echo "shahevelopment" | docker secret create postgresUser -
-
-echo "devops" | docker secret create postgresDb -
